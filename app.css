@@ -152,6 +152,10 @@
 img margin: -100px -1000px 10px 0;
 foto margin: 0px -800px 0px 0;
 */
+.icons-all {
+    list-style: none;
+    display: inline-block;
+}
 
 .icons {
     height: 40px;
