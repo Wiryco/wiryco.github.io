@@ -40,9 +40,9 @@
 
 .img-me {
     border-radius: 0;
-    height: 200px;
+    height: 250px;
     object-fit: contain;
-    width: 200px;
+    width: 250px;
     align-items: unset;
     margin: 0px;
     transition-duration: 2s;
