@@ -39,13 +39,12 @@
 }
 
 .img-me {
-    background-color: #ddd;
-    border-radius: 20%;
+    border-radius: 0;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
     width: 200px;
     align-items: unset;
-    margin: 20px;
+    margin: 0px;
     transition-duration: 2s;
     position: relative;
     -webkit-animation: fadeIn 4s ease-in-out;
