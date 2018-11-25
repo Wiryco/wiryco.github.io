@@ -40,11 +40,11 @@
 
 .img-me {
     border-radius: 0;
-    height: 250px;
+    height: 200px;
     object-fit: contain;
-    width: 250px;
+    width: 200px;
     align-items: unset;
-    margin: 0px;
+    margin: 20px;
     transition-duration: 2s;
     position: relative;
     -webkit-animation: fadeIn 4s ease-in-out;
