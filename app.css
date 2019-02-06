@@ -164,7 +164,7 @@
     height: 40px;
     width: 40px;
     opacity: 0.3;
-    background-color: rgb(70, 60, 57);
+    background-color: rgba(253, 253, 253, 0.479);
     border-radius: 20%;
     transition-duration: 1s;
 }
@@ -194,4 +194,21 @@
     position: relative;
     font-family: 'Comfortaa', cursive;
     line-height: 1;
+}
+
+.icon-cv {
+    height: 45px;
+    width: 45px;
+    opacity: 1;
+    transition-duration: 1s;
+    position: relative;
+}
+
+.icon-cv:hover {
+    /* Efeito de Zoom no icone Curriculo */
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.3;
+    transition-duration: 1s;
 }
