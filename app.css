@@ -1,76 +1,77 @@
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 .img-me {
-    border-radius: 0;
-    height: 200px;
-    object-fit: contain;
-    width: 200px;
-    align-items: unset;
-    margin: 20px;
-    transition-duration: 2s;
-    position: relative;
-    -webkit-animation: fadeIn 4s ease-in-out;
+  border-radius: 0;
+  height: 200px;
+  object-fit: contain;
+  width: 200px;
+  align-items: unset;
+  margin: 20px;
+  /* transition-duration: 2s; */
+  position: relative;
+  /* -webkit-animation: fadeIn 4s ease-in-out;
     -moz-animation: fadeIn 4s ease-in-out;
     -o-animation: fadeIn 4s ease-in-out;
-    animation: fadeIn 4s ease-in-out;
+    animation: fadeIn 4s ease-in-out; */
 }
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
-
 .App-header {
-    background-color: rgb(27, 21, 56);
-    min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    border: 0 dashed #fff;
-    border-top: 10px solid rgb(50, 39, 104);
+  /* background-color: rgb(27, 21, 56); */
+  background-color: #302e2e;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: 0 dashed #fff;
+  border-top: 10px solid #9d4dcc;
+  /* border-top: 10px solid rgb(50, 39, 104);
     border-left: 10px solid rgb(50, 39, 104);
-    border-right: 10px solid rgb(50, 39, 104);
+    border-right: 10px solid rgb(50, 39, 104); */
 }
 
 /*
@@ -87,128 +88,131 @@
 */
 
 .App-link {
-    color: #61dafb;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .App-Logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 40px;
-    width: 40px;
-    align-content: flex-start;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  width: 40px;
+  align-content: flex-start;
 }
 
-
 .titulo {
-    text-align: center;
-    color: rgba(192, 192, 192, 0.644);
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(10px + 2vmin);
-    position: static;
-    text-align: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: calc(10px + 2vmin);
+  position: static;
+  text-align: center;
 }
 
 .cor-titulo {
-    color: #DF3A01;
-    text-align: center;
-    font-family: 'Handlee', cursive;
-    font-size: calc(12px + 2vmin);
-    position: static;
-    text-align: center;
+  color: #9d4dcc;
+  text-align: center;
+  font-family: "Handlee", cursive;
+  font-size: calc(12px + 2vmin);
+  position: static;
+  text-align: center;
 }
 
 .texto {
-    text-align: center;
-    color: rgba(192, 192, 192, 0.644);
-    font-size: calc(7px + 2vmin);
-    position: relative;
-    text-align: center;
-    position: relative;
-    font-family: 'Comfortaa', cursive;
-    line-height: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: calc(7px + 2vmin);
+  position: relative;
+  text-align: center;
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  line-height: 1;
 }
 
 .cor-texto {
-    color: #DF3A01;
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-    font-size: calc(9px + 2vmin);
-    position: static;
-    text-align: center;
+  color: #9d4dcc;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: calc(9px + 2vmin);
+  position: static;
+  text-align: center;
 }
 
 .icons-all {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
 .icons {
-    height: 40px;
-    width: 40px;
-    opacity: 1;
-    transition-duration: 1s;
-    position: relative;
-    border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  opacity: 1;
+  transition-duration: 1s;
+  position: relative;
+  border-radius: 35%;
 }
 
 .icons:hover {
-    height: 40px;
-    width: 40px;
-    opacity: 0.3;
-    background-color: rgba(253, 253, 253, 0.479);
-    border-radius: 20%;
-    transition-duration: 1s;
+  height: 40px;
+  width: 40px;
+  opacity: 0.7;
+  background-color: rgba(253, 253, 253, 0.479);
+  border-radius: 35%;
+  transition-duration: 1s;
 }
 
 .footer-icon {
-    background-color: rgb(27, 21, 56);
-    height: 0%;
-    padding: 30px;
+  background-color: #302e2e;
+  height: 0%;
+  padding: 30px;
 }
 
 .footer {
-    background: rgb(50, 39, 104);
-    border: 0 dashed rgb(50, 39, 104);
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40px;
+  /* background: rgb(50, 39, 104); */
+  background: #9d4dcc;
+  border: 0 dashed #9d4dcc;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
 }
 
 .txtfooter {
-    text-align: center;
-    color: white;
-    font-size: calc(4px + 2vmin);
-    position: absolute;
-    text-align: center;
-    position: relative;
-    font-family: 'Comfortaa', cursive;
-    line-height: 1;
+  text-align: center;
+  color: white;
+  font-size: calc(4px + 2vmin);
+  position: absolute;
+  text-align: center;
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  line-height: 1;
 }
 
 .icon-cv {
-    height: 45px;
-    width: 45px;
-    opacity: 1;
-    transition-duration: 1s;
-    position: relative;
+  height: 45px;
+  width: 45px;
+  opacity: 1;
+  transition-duration: 1s;
+  position: relative;
 }
 
 .icon-cv:hover {
-    /* Efeito de Zoom no icone Curriculo */
-    -moz-transform: scale(1.1);
+  /* Efeito de Zoom no icone Curriculo */
+  /* -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 0.3;
-    transition-duration: 1s;
+    transition-duration: 1s; */
+
+  opacity: 0.7;
+  transition-duration: 1s;
 }
