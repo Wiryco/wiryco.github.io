@@ -2,7 +2,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -12,7 +11,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -22,7 +20,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -32,7 +29,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -95,7 +91,6 @@
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
@@ -212,7 +207,6 @@
     transform: scale(1.1);
     opacity: 0.3;
     transition-duration: 1s; */
-
   opacity: 0.7;
   transition-duration: 1s;
 }
